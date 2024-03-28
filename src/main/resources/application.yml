@@ -1,0 +1,14 @@
+bot:
+  token: 7051126678:AAEeqyqj4WQTGeS50FLZBlx8eHFT0Wb-qoI
+  name: HackathonCryptoBot
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: local
+      auto-index-creation: true
+    redis:
+      host: 127.0.0.1
+      port: 6379
+server:
+  port: 9292
